@@ -1,0 +1,4 @@
+https://api.plataformadigitalnacional.org/bulks-conteos/download?/sistema=s1&elemento=zip
+https://api.plataformadigitalnacional.org/bulks-conteos/download?/sistema=s2&elemento=zip
+https://api.plataformadigitalnacional.org/bulks-conteos/download?/sistema=s3s&elemento=zip
+https://api.plataformadigitalnacional.org/bulks-conteos/download?/sistema=s3p&elemento=zip
