@@ -5,8 +5,6 @@ from zipfile import ZipFile
 import os 
 
 
-
-
 print("Proyecto del datathon")
 
 Sfile = "C:/Users/jossa/OneDrive - Universidad de Guanajuato/Documentos/Josue/Demat/Hackathon/Datathon 2022/Data/zips/datos_PDN_all_22_09_2022.zip"
