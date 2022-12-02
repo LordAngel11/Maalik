@@ -10,13 +10,23 @@ print("Proyecto del datathon")
 
 
 
-S1file = "/home/lordangel11/Documentos/Maalik/Data/zips/datos_PDN_all_22_09_2022.zip"
+Sfile = "/home/lordangel11/Documentos/Maalik/Data/zips/datos_PDN_all_22_09_2022.zip"
 #S2file = "Data/S2datos_PDN_all_22_09_2022.zip"
 #S3file = "Data/S3datos_PDN_all_22_09_2022.zip"
 
-with ZipFile(S1file, 'r') as zip:
+exdir = "/home/lordangel11/Documentos/Maalik/Data/extracted"
+
+with ZipFile(Sfile, 'r') as zip:
     
    zip.printdir()
-   print("Ya leyo todos los archivos del S1")
+   print("Ya leyo todos los archivos")
+   
+   zip.extractall(exdir)
+   
+dirs1 = exdir + "/s1/s1.zip"
+
+with ZipFile(dirs1, 'r') as zip1:
+    zip1.printdir() 
     
+    zip1.extractall(exdir + "/s1json")
     
